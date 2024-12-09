@@ -1,0 +1,71 @@
+#root{
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.container{
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px soldid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  font-family: sans-serif;
+}
+
+h1{
+  font-size: 24px;
+  margin-bottom: 20px;
+  color:black;
+
+}
+
+.file-input{
+  margin: 20px 0;
+
+}
+.file-input input{
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+.upload-button{
+  background-color: blue;
+  color: azure;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 15px;
+
+}
+
+.upload-button:hover{
+  background-color: darkblue;
+}
+
+.transcription-result{
+   margin-top: 35px;
+   text-align: center;
+   color: black;
+}
+
+.transcription-result h2{
+  font-size: 20px;
+  margin-top: 10px;
+  color: rgb(10, 59, 76);
+}
+
+.transcription-result p{
+  background-color: cornsilk;
+  padding: 15px;
+  border-radius: 7px;
+  border: 1px solid #ddd;
+}
