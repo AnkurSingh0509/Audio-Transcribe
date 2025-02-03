@@ -1,0 +1,117 @@
+Audio Transcription Application
+
+Overview
+
+The Audio Transcription Application is an AI-powered tool that converts uploaded audio files into text. It uses React (Vite) for the frontend and Java Spring Boot for the backend, with OpenAI integration for seamless transcription.
+
+Features
+
+Upload audio files and transcribe them into text
+
+User-friendly UI built with React and Vite
+
+Backend API powered by Spring Boot
+
+OpenAI integration for accurate transcription
+
+Secure and scalable architecture
+
+Prerequisites
+
+Make sure you have the following installed before setting up the project:
+
+Node.js (>= 16.x)
+
+npm or yarn
+
+Java 17 (or higher)
+
+Maven (for Spring Boot dependencies)
+
+PostgreSQL/MySQL (if using a database)
+
+Installation and Setup
+
+1. Clone the Repository
+
+git clone https://github.com/AnkurSingh0509/Audio-Transcribe.git
+cd Audio-Transcribe
+
+2. Backend (Spring Boot) Setup
+
+Navigate to the backend folder:
+
+cd backend
+
+Install dependencies and build the project:
+
+mvn clean install
+
+Configure database (optional):
+
+Update application.properties if using a database:
+
+spring.datasource.url=jdbc:mysql://localhost:3306/transcription_db
+spring.datasource.username=root
+spring.datasource.password=yourpassword
+
+Run the Spring Boot application:
+
+mvn spring-boot:run
+
+Backend will be running on http://localhost:8080
+
+3. Frontend (React Vite) Setup
+
+Navigate to the frontend folder:
+
+cd frontend
+
+Install dependencies:
+
+npm install  # or yarn install
+
+Start the frontend development server:
+
+npm run dev  # or yarn dev
+
+Frontend will be running on http://localhost:5173
+
+API Endpoints
+
+1. Upload Audio for Transcription
+
+POST /api/transcribe
+
+Request: Form-data with audioFile
+
+Response: Transcribed text JSON
+
+2. Get Transcription History
+
+GET /api/history
+
+Response: List of past transcriptions
+
+Deployment
+
+Frontend: Can be deployed on Vercel, Netlify, or any static hosting
+
+Backend: Can be deployed on AWS, Heroku, or any cloud provider
+
+Database: Hosted on AWS RDS, PostgreSQL, or MySQL
+
+Contributing
+
+Feel free to submit issues and pull requests. Contributions are welcome!
+
+License
+
+This project is MIT Licensed.
+
+Contact
+
+GitHub: AnkurSingh0509
+
+Email: ankurrock1012@gmail.com
+
